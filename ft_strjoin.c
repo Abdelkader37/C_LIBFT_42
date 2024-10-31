@@ -14,18 +14,18 @@
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {
-	int	len;
-	int	len1;
-	int	len2;
-	char	*str;
+	int len;
+	int len1;
+	int len2;
+	char *str;
 
 	len1 = ft_strlen(s1);
 	len2 = ft_strlen(s2);
-	len = len1 + len2 +1;
-	str =  (char *)malloc(sizeof(char) * len);
+	len = len1 + len2 + 1;
+	str = (char *)malloc(sizeof(char) * len);
 	if (str == NULL)
 		return (NULL);
-	ft_strlcat(str,s1,len1+1);
-	ft_strlcat(str,s2,len);
+	ft_strlcat(str, s1, len1 + 1);
+	ft_strlcat(str, s2, len);
 	return (str);
 }

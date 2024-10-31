@@ -6,7 +6,7 @@
 /*   By: aqrafi <aqrafi@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 19:22:58 by aqrafi            #+#    #+#             */
-/*   Updated: 2024/10/29 13:57:39 by aqrafi           ###   ########.fr       */
+/*   Updated: 2024/10/30 18:07:46 by aqrafi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	*ft_memset(void *b, int c, size_t len)
 {
-	size_t	i;
-	char	*s;
+	size_t			i;
+	unsigned char	*s;
 
 	s = b;
 	i = 0;

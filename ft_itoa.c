@@ -28,7 +28,7 @@ long	n_len(long n)
 	int	len;
 
 	len = 0;
-	while (n != 0) 
+	while (n != 0)
 	{
 		len++;
 		n /= 10;
